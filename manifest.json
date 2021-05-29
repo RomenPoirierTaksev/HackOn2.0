@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
   
-    "name": "Test",
-    "description": "Jokes",
+    "name": "Daily Dose",
+    "description": "Jokes and Pics",
     "version": "1.0",
   
     "browser_action": {

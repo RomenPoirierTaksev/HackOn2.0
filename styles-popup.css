@@ -1,0 +1,26 @@
+html * {
+  font-size: 1em;
+  color: rgb(0, 0, 0) !important;
+  font-family: Arial !important;
+}
+#main {
+  height: 220px;
+  width: 350px;
+  text-align: center;
+}
+
+#main h1 {
+  font-weight: bold;
+}
+#main button {
+  margin: 10px;
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  background-color: aliceblue;
+  border-color: rgb(109, 141, 216);
+}
+
+#main button:hover {
+  background-color: rgb(109, 141, 216);
+}

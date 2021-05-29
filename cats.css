@@ -1,0 +1,25 @@
+body {
+  /* margin: 0;
+  padding: 0; */
+}
+
+#catImg {
+  /* background-image: url("assets/cats/angry-cat.JPG");
+  background-image: url("assets/cats/mad-cat.JPG");
+  background-image: url("assets/cats/sake.JPG"); */
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  /* width: 100vw;
+  height: 100vh; */
+
+  /* height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+#time {
+  font-family: "Saira", sans-serif;
+}
