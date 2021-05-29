@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     var checkPageButton = document.getElementById('checkPage');
     checkPageButton.addEventListener('click', function() {
-        window.open("https://www.w3schools.com")
+        window.open("newtab.html")
       });
     }, false);
