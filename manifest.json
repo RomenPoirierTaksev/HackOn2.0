@@ -2,19 +2,19 @@
     "manifest_version": 2,
   
     "name": "Daily Dose",
-    "description": "Jokes and Pics",
+    "description": "Jokes and Pictures",
     "version": "1.0",
   
-    "browser_action": {
-     "default_icon": "icon.png",
-     "default_popup": "popup.html"
-    },
     "permissions": [
      "activeTab"
      ],
     
     "chrome_url_overrides": {
         "newtab": "cats.html"
+    },
+    "browser_action": {
+     "default_icon": "pepe3.png",
+     "default_popup": "popup.html"
     },
     "content_security_policy": "script-src 'self' https://ajax.googleapis.com https://maxcdn.bootstrapcdn.com; object-src 'self'"
   }
