@@ -11,8 +11,8 @@ const landscapeLst = [
 function setUpPage() {
     var randImg = randomLandscape();
     randomQuote();
-    
     changeFontColor(randImg);
+    updateDay();
 }
 
 function randomLandscape() {
@@ -27,6 +27,7 @@ function changeFontColor(randImg) {
     }
     if (randImg == "assets/landscape/landscape3.jpg") {
         document.getElementById("time").style.color = 'white';
+        document.getElementById("day").style.color = 'white';
     }
 }
 
