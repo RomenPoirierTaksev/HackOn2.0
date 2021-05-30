@@ -31,28 +31,12 @@ function randomCat() {
     updateDay();
 }
 
-
 var timer = setInterval(updateTime, 100);
 
 function updateTime() {
     var d = new Date();
     document.getElementById("time").innerHTML = d.toLocaleTimeString();
 }
-
-
-
-// var someDate = new Date();
-// var numberOfDaysToAdd = 6;
-// someDate.setDate(someDate.getDate() + numberOfDaysToAdd); 
-// function updateDay() {
-//     var dd = someDate.getDate();
-//     var mm = someDate.getMonth() + 1;
-//     var y = someDate.getFullYear();
-
-// var someFormattedDate = dd + '/'+ mm + '/'+ y;
-//     document.getElementById("day").innerHTML = someFormattedDate.toLocaleTimeString();
-// }
-
 
 function getAllDate() {
     var today = new Date();
@@ -70,8 +54,6 @@ function getAllDate() {
     return today;
   }
 
-
   function updateDay() {
-    // var d = new Date();
     document.getElementById("day").innerHTML = getAllDate()
 }

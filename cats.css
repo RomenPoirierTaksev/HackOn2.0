@@ -1,5 +1,5 @@
 body {
-  background-color: #dcdcdc;
+  background-color: #dcdcdc !important;
 }
 
 #catImg,
@@ -25,7 +25,7 @@ body {
   height: 600px;
   margin-left: 10px;
   /* padding: 0; */
-  background-color: #647aac;
+  background-color: #acbac2;
   color: white;
 }
 
@@ -38,7 +38,7 @@ body {
   font-family: "Saira", sans-serif;
   text-align: center;
   color: white;
-  font-size: 150px;
+  font-size: 90px;
   margin: 50px 75px;
 }
 
@@ -71,4 +71,15 @@ body {
 #timeDay {
   display: flex;
   justify-content: center;
+}
+
+#settingDiv {
+  position: absolute;
+  top: 6%;
+  left: 92%;
+  transform: translate(-50%, -50%);
+}
+
+#settingsBtn {
+  font-size: 40px;
 }
