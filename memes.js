@@ -13,6 +13,7 @@ function randomMeme() {
     document.getElementById("memeImg").src = randMeme;
     randomQuote();
     console.log(randMeme);
+    updateDay();
 }
 
 var timer = setInterval(updateTime, 100);
