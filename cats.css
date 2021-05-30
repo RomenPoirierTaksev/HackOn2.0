@@ -1,25 +1,74 @@
 body {
-  /* margin: 0;
-  padding: 0; */
+  background-color: #dcdcdc;
 }
 
-#catImg {
-  /* background-image: url("assets/cats/angry-cat.JPG");
-  background-image: url("assets/cats/mad-cat.JPG");
-  background-image: url("assets/cats/sake.JPG"); */
-
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: auto;
-  /* width: 100vw;
-  height: 100vh; */
-
-  /* height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
+#catImg,
+#memeImg {
+  object-fit: cover;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: white;
+  border-width: 20px;
+  width: 600px;
+  height: 600px;
+  margin-right: 10px;
+  display: block;
 }
 
-#time {
+#quote {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: white;
+  border-width: 20px;
+  text-align: center;
+  width: 600px;
+  height: 600px;
+  margin-left: 10px;
+  /* padding: 0; */
+  background-color: #acbac2;
+  color: white;
+}
+
+#innerquote {
+  font-size: 40px;
+  padding: 20px;
+}
+#time,
+#day {
   font-family: "Saira", sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 150px;
+  margin: 50px 75px;
+}
+
+.imgQuote {
+  border-color: black;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.box h1 {
+  /* width: 50%; */
+}
+
+.container {
+  /* position: relative; */
+}
+
+.box {
+  /* width: 50px;
+  height: 50px;
+  background-color: red;
+  /* Center vertically and horizontally */
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px; */
+}
+
+#timeDay {
+  display: flex;
+  justify-content: center;
 }

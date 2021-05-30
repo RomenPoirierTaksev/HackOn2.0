@@ -18,9 +18,9 @@ html * {
   width: 100px;
   border-radius: 20px;
   background-color: aliceblue;
-  border-color: rgb(109, 141, 216);
+  border-color: #acbac2;
 }
 
 #main button:hover {
-  background-color: rgb(109, 141, 216);
+  background-color: #acbac2;
 }
