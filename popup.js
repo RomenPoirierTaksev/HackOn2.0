@@ -16,3 +16,10 @@ document.addEventListener('DOMContentLoaded', function() {
       window.open("memes.html")
     });
   }, false);
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var checkPageButton = document.getElementById('checkPage4');
+    checkPageButton.addEventListener('click', function() {
+        window.open("landscape.html")
+      });
+    }, false);
